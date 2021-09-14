@@ -29,26 +29,21 @@ function compareCards(cardID, sprCardFace)
 			global.prevCardID = cardID;
 			
 		}
-		else
+		else if(global.cardCount == 1)
 		{
 			
 			flipCard(cardID, sprCardFace);
-		
-			
-			if(global.prevCardID.sprite_index == sprite_index and sprite_index == sprAce)
+		    alarm_set(0,50);
+			global.cardCount++;
+			if(alarm[0] == 0)
 			{
-				room_goto(rmEnd);
+				
 			}
-			else
-			{
-				
-				
-				flipCard(global.prevCardID, global.prevCardID.cardFace);
-				flipCard(cardID, sprCardFace);
-
-				global.cardCount = 0;
 			
-			}	
+		}
+		else
+		{
+			return
 		}
 	}
 }

@@ -5,6 +5,7 @@ randomize();
 
 // Global variables for on click events
 global.cardCount = 0;
+global.totalClicks = 0;
 global.prevCardID = noone;
 
 
