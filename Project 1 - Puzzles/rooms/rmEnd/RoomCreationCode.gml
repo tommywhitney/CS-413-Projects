@@ -1,3 +1,5 @@
+
+//create sequences for cards moving around end screen
 layer_sequence_create("Instances", 6, 4, seqEndVert);
 layer_sequence_create("Instances", 248, 6, seqEndVert);
 layer_sequence_create("Instances", 6, 4, seqEndHori);
