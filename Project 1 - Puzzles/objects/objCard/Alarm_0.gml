@@ -11,5 +11,4 @@
 				flipCard(id, id.cardFace);
 
 				global.cardCount = 0;
-			
 			}

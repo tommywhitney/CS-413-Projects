@@ -5,6 +5,7 @@ function flipCard(cardID, sprCardFace)
 
 	with(cardID)
 	{
+
 		if(sprite_index == sprCardBack)
 		{
 			sprite_index = sprCardFace;
@@ -13,7 +14,6 @@ function flipCard(cardID, sprCardFace)
 		{
 			sprite_index = sprCardBack;
 		}
-		
 	}
 }
 
@@ -31,7 +31,6 @@ function compareCards(cardID, sprCardFace)
 		}
 		else if(global.cardCount == 1)
 		{
-			
 			flipCard(cardID, sprCardFace);
 		    alarm_set(0,50);
 			global.cardCount++;
