@@ -1,5 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
 //when alarm[0] goes off 
 //test if both cards flipped are aces
 if(global.prevCardID.sprite_index == sprite_index and sprite_index == sprAce)
