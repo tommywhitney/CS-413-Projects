@@ -35,10 +35,6 @@ function compareCards(cardID, sprCardFace)
 			flipCard(cardID, sprCardFace);
 		    alarm_set(0,50);
 			global.cardCount++;
-			if(alarm[0] == 0)
-			{
-				
-			}
 			
 		}
 		else
