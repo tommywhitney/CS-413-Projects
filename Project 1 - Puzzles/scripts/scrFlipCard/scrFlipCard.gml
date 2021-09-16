@@ -19,7 +19,7 @@ function flipCard(cardID, sprCardFace)
 	}
 }
 
-
+// compares two cards
 function compareCards(cardID, sprCardFace)
 {	
 	with(cardID)
