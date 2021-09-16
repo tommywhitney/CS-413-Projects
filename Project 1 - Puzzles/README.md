@@ -12,7 +12,9 @@ the minimum amount of guesses.
 ##	Known	Bugs	or	Issues
 Describe	any	known	issues	with	your	game.
 
+No known Bugs or Issues
+
 ##	Credits
-*	Peter Galvan: Created sprites, rooms, and helped with source code.	
-*	Camden Hortline: Helped work out logic in code and create tweens.
-*	Thomas Whitney: Helped develop logic for the game and create sequences.
+*	Peter Galvan: Created sprites, rooms, and helped with source code logic.	
+*	Camden Hortline: Helped work out logic in code and create and implement tweens, Helped add details to Title and End Screen sprites.
+*	Thomas Whitney: Helped develop logic for the game and create and implement sequences.
