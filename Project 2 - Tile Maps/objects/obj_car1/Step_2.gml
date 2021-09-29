@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-y -= 5;
+y -= 3;
 
 // center camera on car
 halfViewWidth = camera_get_view_width(view_camera[0]) / 2;
@@ -13,4 +13,4 @@ cy = y - halfViewHeight;
 cx = clamp(cx, min_view_x, max_view_x);
 cy = clamp(cy, min_view_y, max_view_y);
 
-camera_set_view_pos(view_camera[0], cx, cy - 100)
+camera_set_view_pos(view_camera[0], cx, cy - 50);
